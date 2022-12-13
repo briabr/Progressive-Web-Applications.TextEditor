@@ -32,7 +32,7 @@ console.log('🚀 - data saved to the database', result);
 
 
 // TODO: Add logic for a method that gets all the content from the database
-export const getDb = async () => {}
+export const getDb = async () => {
 
 // Create a connection to the database database and version we want to use.
   const todosDb = await openDB('todos', 1);
@@ -51,5 +51,6 @@ export const getDb = async () => {}
   console.log('result.value', result);
   return result;
 ;
+}
 
 initdb();
