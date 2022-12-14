@@ -2,11 +2,13 @@
 
 ## Description
 
+```
 Building a text editor that runs in the browser where the app is be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+```
 
 ## User Story
 
-```md
+```
 AS A developer
 I WANT to create notes or code snippets with or without an internet connection
 SO THAT I can reliably retrieve them for later use
@@ -14,7 +16,7 @@ SO THAT I can reliably retrieve them for later use
 
 ## Acceptance Criteria
 
-```md
+```
 GIVEN a text editor web application
 WHEN I open my application in my editor
 THEN I should see a client server folder structure
@@ -44,6 +46,7 @@ THEN I should have proper build scripts for a webpack application
 
 ## Mock-Up
 
+```
 The following animation demonstrates the application functionality:
 
 ![Demonstration of the finished Module 19 Challenge being used in the browser and then installed.](./Assets/00-demo.gif)
@@ -59,11 +62,16 @@ The following image shows the application's registered service worker:
 The following image shows the application's IndexedDB storage:
 
 ![Demonstration of the finished Module 19 Challenge with a IndexedDB storage named 'jate' in the browser.](./Assets/03-idb-storage.png)
+```
 
 ## Heroku Deployment Link
 
+```
 https://warm-journey-37547.herokuapp.com/
+```
 
-## GitHub Repository 
+## GitHub Repository
 
+```
 https://github.com/briabr?tab=repositories
+```
